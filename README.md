@@ -58,9 +58,12 @@ install-aws-eks
     0.150.0-dev
     root@worker2:~#
 
-# 
-# 
-# 
+#  https://github.com/eksctl-io/eksctl/blob/main/README.md#installation
+
+
+
+# 이건 aws ec2에서 해야되는거 같아서 여기서 멈춤
+# 내가 원하는것은 aws 외부 우분투 서버에서 k8s 설치 하고 싶음.....
 # 
 # 
 # 
