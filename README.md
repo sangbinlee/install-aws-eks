@@ -45,18 +45,18 @@ install-aws-eks
 
 # install eksctl
   
-  # curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
-  # sudo mv /tmp/eksctl /usr/local/bin
-  # eksctl version
+   curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
+   sudo mv /tmp/eksctl /usr/local/bin
+   eksctl version
+    
+    root@master:~# eksctl version
+    0.150.0-dev
+    root@master:~#
   
-  root@master:~# eksctl version
-  0.150.0-dev
-  root@master:~#
-
-  
-  root@worker2:~# eksctl version
-  0.150.0-dev
-  root@worker2:~#
+    
+    root@worker2:~# eksctl version
+    0.150.0-dev
+    root@worker2:~#
 
 # 
 # 
